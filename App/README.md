@@ -1,0 +1,15 @@
+# Arsenal Fan App
+
+This is a app designed for people who support Arsenal Football Club
+
+The app starts with a welcome page. The code seen on this page can be seen in the Welcome.tsx and Welcome.css files. The purpose of this page is to welcome the user to the app. To proceed from the welcome page to the next page, the user needs to press the enter page where the user will be taken to another page.
+
+When the user presses the enter button, the user will be taken to a new page. The user will be taken to the home page, the code for this page can be seen in the Home.tsx and Home.css files. This page is connected to a tab bar where the user is able to change tabs and move on to another screen, at the moment the user is on the Home tab which shows the Home page. In the Home there are three buttons, each button takes the user to a new page, the first button takes the user to the results page, the second button takes the user to the fixtures page and the third button takes the button to the players page.
+
+When the user presses the results button, the user will be taken to the results page. The code for this page can be seen in the Results.tsx and Results.css files. This page consists of results of past games, if more results are to be added, just  add a new document in the firebase database under the "results" collection. This page has a back button which takes the user back to the home page of the app.
+
+When the user presses the fixtures button, the user will be taken to the fixtures page. The code for this page can be seen in the Fixtures.tsx and Fixtures.css files. This page consists of fixtures of future games, if more fixtures are to be, just add a new document in the firebase database under the "fixtures" collection.This page has a back button which takes the user back to the home page of the app.
+
+When the user presses the players button, the user will be taken to the players page. The code for this page can be seen in the Players.tsx and Players.css files. This pages consists of players in the current squad of the sports team, if a player is added to the team ot if a player is removed from the team, then just add/remove a document in the firebase database under the "players" collection. This page has a back button which takes the user back to the home page of the app.
+
+When the user is on the home page, it is currently in the home tab. The user can change tabs which will take him/her to another page. The other tab is called Season, when the user presses the Season tab, the user will be taken to the Season page. The code for this page can be seen in the Season.tsx and Season.css files. The user is able to see the season progress for this sports team, specifically the overall progress of the season, and the preogression in each competition that the team is apart of. As the season progresses, changes are to be made to this page, these changes can be made directly into the code in the form of a value, and it is represented as a IonProgressBar.

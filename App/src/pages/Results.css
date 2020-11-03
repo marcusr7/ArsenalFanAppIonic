@@ -1,0 +1,24 @@
+
+.teamBadgeResult_image{
+    width: auto;
+    height: 50px;
+    right: -120px;
+    top: -55px;
+    position: relative;
+    margin-block-end: -55px;
+ }
+
+ .typeBadgeResult_image{
+    width: auto;
+    height: 50px;
+    right: 140px;
+    top: 50px;
+    position: relative;
+    margin-block-start: -50px;
+ }
+
+ .result-entry{
+     position: relative;
+     right : -60px;
+ }
+

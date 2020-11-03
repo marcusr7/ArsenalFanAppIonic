@@ -1,0 +1,45 @@
+.arsenalAbout_image{
+    width: auto;
+    height: 100px;
+    right: -20px;
+    top: 5px;
+    position: relative;
+    margin-block-end: 100px;
+    
+}
+
+.premierLeagueProgression_image{
+    width: auto;
+    height: auto;
+    right: 220px;
+    top: 60px;
+    position: relative;
+    margin-block-end: 10px
+}
+
+.eflCupProgression_image{
+    width: auto;
+    height: auto;
+    right: 170px;
+    top: 20px;
+    position: relative;
+    margin-block-end: 10px;
+}
+
+.FACupProgression_image{
+    width: auto;
+    height: auto;
+    right: 120px;
+    top: -20px;
+    position: relative;
+    margin-block-end: 10px
+}
+
+.europaLeagueProgression_image{
+    width: 35px;
+    height: auto;
+    right: 60px;
+    top: -80px;
+    position: relative;
+    margin-block-end: 10px;
+}

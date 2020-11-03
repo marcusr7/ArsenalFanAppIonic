@@ -1,0 +1,42 @@
+@keyframes welcome {
+    from {width: 120px;}
+    to {width: 400px;}
+
+}
+
+.welcomeTitleOne{
+    position: relative;
+    right: 10px;
+}
+
+
+.arsenal_image{
+   width: auto;
+   height: 200px;
+}
+
+
+
+.welcomeTitleOne{
+    text-align: center;
+}
+
+.pepeWelcome{
+
+    animation-name: welcome;
+    animation-duration: 7s;
+    animation-timing-function: ease-in-out;   
+}
+
+.lacazetteWelcome{
+
+    animation-name: welcome;
+    animation-duration: 7s;
+    animation-timing-function: ease-in-out;
+}
+
+
+
+
+
+ 
